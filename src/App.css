@@ -31,3 +31,12 @@
     transform: rotate(360deg);
   }
 }
+
+.f-label {
+  color: red;
+}
+
+.f-button {
+  color: white;
+  background: black;
+}
