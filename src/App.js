@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
-import { Label, Button, Textinput, Icon } from "./atoms";
+import fish from "./fish.png";
+import { Label, Button, Textinput, Icon, Image, RadioButton } from "./atoms";
 
 import "./App.css";
 
@@ -26,6 +27,8 @@ function App() {
           onChange={() => console.log("textinput on change")}
         />
         <Icon type="🤔" ariaLabel="question-help-icon" />
+        <Image src={fish} />
+        <RadioButton name="radioGroup" options={["Right", "Left"]} />
       </header>
     </div>
   );
