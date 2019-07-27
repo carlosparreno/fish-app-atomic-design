@@ -1,8 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
-import Label from "./atoms/Label";
-import Button from "./atoms/Button";
-import Textinput from "./atoms/Textinput";
+import { Label, Button, Textinput, Icon } from "./atoms";
+
 import "./App.css";
 
 function App() {
@@ -26,6 +25,7 @@ function App() {
           value=""
           onChange={() => console.log("textinput on change")}
         />
+        <Icon type="🤔" ariaLabel="question-help-icon" />
       </header>
     </div>
   );
