@@ -6,7 +6,7 @@ function Textinput(props) {
       <input
         className="f-textinput"
         type="text"
-        value={props.value}
+        ref={props.ref}
         onChange={props.onChange}
       />
     </>
