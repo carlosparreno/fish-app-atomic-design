@@ -1,3 +1,4 @@
 import Formitem from "./Formitem";
+import Form from "./Form";
 
-export { Formitem };
+export { Form, Formitem };

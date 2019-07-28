@@ -67,3 +67,16 @@
 .f-hint .f-label {
   font-size: 12px;
 }
+
+.f-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.f-form input[type="submit"] {
+  color: white;
+  background: black;
+  font-size: 14px;
+  margin: 14px;
+}
