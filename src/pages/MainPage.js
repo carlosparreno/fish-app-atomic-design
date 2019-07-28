@@ -7,7 +7,7 @@ import { LinearList } from "../organisms";
 function MainPage() {
   return (
     <>
-      <Form name="fish-form" label="Add a fish">
+      <Form name="fish-form" label="ADD A FISH">
         <Formitem label="Fish name:" hint="Give me a name">
           <Textinput
             value=""
@@ -15,10 +15,7 @@ function MainPage() {
             onChange={() => console.log("textinput on change")}
           />
         </Formitem>
-        <Formitem
-          label="Direcction:"
-          hint="Direction the fish will be heading to"
-        >
+        <Formitem label="Direcction:" hint="Direction the fish will head">
           <RadioButton name="right-left-radio" options={["Right", "Left"]} />
         </Formitem>
       </Form>

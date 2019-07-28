@@ -12,7 +12,8 @@ function Formitem(props) {
           <Icon
             type="🤔"
             ariaLabel="question-help-icon"
-            onClick={() => setShowHint(!showHint)}
+            onMouseEnter={() => setShowHint(!showHint)}
+            onMouseLeave={() => setShowHint(!showHint)}
           />
         </Label>
         <div className="f-hint">{showHint && <Label>{props.hint}</Label>}</div>
