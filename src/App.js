@@ -1,6 +1,7 @@
 import React from "react";
 import fish from "./fish.png";
 import { Label, Button, Textinput, Icon, Image, RadioButton } from "./atoms";
+import { Formitem } from "./molecules";
 
 import "./App.css";
 
@@ -16,7 +17,18 @@ function App() {
         />
         <Icon type="🤔" ariaLabel="question-help-icon" />
         <Image src={fish} />
-        <RadioButton name="radioGroup" options={["Right", "Left"]} />
+        <Formitem label="Fish name:" hint="Give me a name">
+          <Textinput
+            value=""
+            onChange={() => console.log("textinput on change")}
+          />
+        </Formitem>
+        <Formitem
+          label="Direcction:"
+          hint="Direction the fish will be heading to"
+        >
+          <RadioButton name="radioGroup" options={["Right", "Left"]} />
+        </Formitem>
       </header>
     </div>
   );
