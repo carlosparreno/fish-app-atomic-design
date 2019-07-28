@@ -2,6 +2,7 @@ import React from "react";
 import fish from "../fish.png";
 import { Textinput, RadioButton } from "../atoms";
 import { Form, Formitem, PicturePanel } from "../molecules";
+import { LinearList } from "../organisms";
 
 function MainPage() {
   return (
@@ -21,7 +22,18 @@ function MainPage() {
           <RadioButton name="right-left-radio" options={["Right", "Left"]} />
         </Formitem>
       </Form>
-      <PicturePanel name="Jonhy" direction="right" src={fish} />
+      <LinearList>
+        <PicturePanel name="Jonhy" direction="right" src={fish} />
+        <PicturePanel name="Tom" direction="right" src={fish} />
+        <PicturePanel name="Jimbo" direction="left" src={fish} />
+        <PicturePanel name="Tulipan" direction="right" src={fish} />
+        <PicturePanel name="Queso" direction="left" src={fish} />
+        <PicturePanel name="Jonhy" direction="right" src={fish} />
+        <PicturePanel name="Tom" direction="right" src={fish} />
+        <PicturePanel name="Jimbo" direction="left" src={fish} />
+        <PicturePanel name="Tulipan" direction="right" src={fish} />
+        <PicturePanel name="Queso" direction="left" src={fish} />
+      </LinearList>
     </>
   );
 }
