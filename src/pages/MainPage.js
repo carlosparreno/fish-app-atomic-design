@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import fishImage from '../fish.png';
-import { Textinput, RadioButton, Label } from '../atoms';
+import { Textinput, RadioButton } from '../atoms';
 import { Form, Formitem, PicturePanel } from '../molecules';
 import { LinearList } from '../organisms';
 
@@ -8,6 +8,7 @@ function MainPage() {
   const [fishes, setFishes] = useState([]);
   const [fishName, setFishName] = useState('');
   const [fishDirection, setFishDirection] = useState(null);
+
   const [formError, setFormError] = useState(false);
 
   const handleSubmit = event => {
@@ -26,6 +27,7 @@ function MainPage() {
     const name = event.target.value;
     setFishName(name);
   };
+
   const handleFishDirectionChange = event => {
     const name = event.target.value;
     setFishDirection(name);
@@ -51,11 +53,11 @@ function MainPage() {
           <RadioButton
             name="right-left-radio"
             options={['right', 'left']}
+            valueSelected={fishDirection}
             onChange={handleFishDirectionChange}
           />
         </Formitem>
       </Form>
-      {fishes && fishes.length === 0 && <Label>There are no fishes</Label>}
       {fishes && fishes.length > 0 && (
         <LinearList>
           {fishes.map((fish, key) => (

@@ -9,7 +9,7 @@ function Form(props) {
       <input type="submit" value="Submit" />
       {props.formError && (
         <div className="f-form-error">
-          <Label>props.errorMessage</Label>
+          <Label>{props.errorMessage}</Label>
         </div>
       )}
     </form>

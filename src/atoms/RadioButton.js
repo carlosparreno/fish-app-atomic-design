@@ -9,6 +9,7 @@ function RadioButton(props) {
             type="radio"
             name={props.name}
             value={option}
+            checked={props.valueSelected === option}
             onChange={props.onChange}
           />
           <span className="f-radio-item">{option}</span>
