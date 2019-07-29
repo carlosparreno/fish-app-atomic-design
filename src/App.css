@@ -76,7 +76,7 @@
   width: 50%;
 }
 
-.f-form input[type="submit"] {
+.f-form input[type='submit'] {
   color: white;
   background: black;
   font-size: 14px;
@@ -103,9 +103,20 @@
 
 .f-linear-list {
   display: flex;
+  align-items: center;
   overflow-x: auto;
   width: 90%;
   border: 1px solid white;
   padding: 10px;
   margin: 10px;
+}
+
+.f-linear-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.f-form-error .f-label {
+  color: red;
+  font-size: 14px;
 }

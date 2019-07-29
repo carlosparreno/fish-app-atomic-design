@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Textinput(props) {
   return (
@@ -7,7 +7,7 @@ function Textinput(props) {
         className="f-textinput"
         name={props.name}
         type="text"
-        ref={props.ref}
+        value={props.value}
         onChange={props.onChange}
       />
     </>

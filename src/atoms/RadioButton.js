@@ -1,11 +1,16 @@
-import React from "react";
+import React from 'react';
 
 function RadioButton(props) {
   return (
     <span>
       {props.options.map((option, key) => (
         <span key={key}>
-          <input type="radio" name={props.name} value={option} />
+          <input
+            type="radio"
+            name={props.name}
+            value={option}
+            onChange={props.onChange}
+          />
           <span className="f-radio-item">{option}</span>
         </span>
       ))}
