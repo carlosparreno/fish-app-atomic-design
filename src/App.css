@@ -53,6 +53,10 @@
   margin-top: 24px;
 }
 
+.f-formitem .f-icon {
+  margin-left: 12px;
+}
+
 .f-formitem-label {
   display: flex;
   flex-direction: column;
