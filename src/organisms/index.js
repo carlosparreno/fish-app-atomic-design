@@ -1,3 +1,3 @@
-import LinearList from "./LinearList";
+import LinearList from './LinearList';
 
 export { LinearList };
