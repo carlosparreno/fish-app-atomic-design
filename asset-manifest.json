@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.157ab903.chunk.css",
-    "main.js": "/static/js/main.ff99b290.chunk.js",
-    "main.js.map": "/static/js/main.ff99b290.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.4a313aef.chunk.js": "/static/js/2.4a313aef.chunk.js",
-    "static/js/2.4a313aef.chunk.js.map": "/static/js/2.4a313aef.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.acf11ff8cd56e284337baa38ca4d050c.js": "/precache-manifest.acf11ff8cd56e284337baa38ca4d050c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.157ab903.chunk.css.map": "/static/css/main.157ab903.chunk.css.map",
-    "static/media/fish.png": "/static/media/fish.c4d8458c.png"
+    "main.css": "/fish-app-atomic-design/static/css/main.157ab903.chunk.css",
+    "main.js": "/fish-app-atomic-design/static/js/main.ff99b290.chunk.js",
+    "main.js.map": "/fish-app-atomic-design/static/js/main.ff99b290.chunk.js.map",
+    "runtime~main.js": "/fish-app-atomic-design/static/js/runtime~main.5a4e8c2b.js",
+    "runtime~main.js.map": "/fish-app-atomic-design/static/js/runtime~main.5a4e8c2b.js.map",
+    "static/js/2.4a313aef.chunk.js": "/fish-app-atomic-design/static/js/2.4a313aef.chunk.js",
+    "static/js/2.4a313aef.chunk.js.map": "/fish-app-atomic-design/static/js/2.4a313aef.chunk.js.map",
+    "index.html": "/fish-app-atomic-design/index.html",
+    "precache-manifest.69962f20363c9dbb51a3c252661c7995.js": "/fish-app-atomic-design/precache-manifest.69962f20363c9dbb51a3c252661c7995.js",
+    "service-worker.js": "/fish-app-atomic-design/service-worker.js",
+    "static/css/main.157ab903.chunk.css.map": "/fish-app-atomic-design/static/css/main.157ab903.chunk.css.map",
+    "static/media/fish.png": "/fish-app-atomic-design/static/media/fish.c4d8458c.png"
   }
 }
