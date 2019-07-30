@@ -99,6 +99,10 @@
   margin-top: 20px;
 }
 
+.f-picture-panel .f-button {
+  font-size: 20px;
+}
+
 .f-image-left {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
