@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fish-app-atomic-design/static/css/main.157ab903.chunk.css",
+    "main.css": "/fish-app-atomic-design/static/css/main.8c303650.chunk.css",
     "main.js": "/fish-app-atomic-design/static/js/main.08be26b8.chunk.js",
     "main.js.map": "/fish-app-atomic-design/static/js/main.08be26b8.chunk.js.map",
     "runtime~main.js": "/fish-app-atomic-design/static/js/runtime~main.5a4e8c2b.js",
@@ -8,9 +8,9 @@
     "static/js/2.4a313aef.chunk.js": "/fish-app-atomic-design/static/js/2.4a313aef.chunk.js",
     "static/js/2.4a313aef.chunk.js.map": "/fish-app-atomic-design/static/js/2.4a313aef.chunk.js.map",
     "index.html": "/fish-app-atomic-design/index.html",
-    "precache-manifest.add91a0352a89255ad16722bef2c7ba7.js": "/fish-app-atomic-design/precache-manifest.add91a0352a89255ad16722bef2c7ba7.js",
+    "precache-manifest.d7b000737c5ba98906c6d346458c08d4.js": "/fish-app-atomic-design/precache-manifest.d7b000737c5ba98906c6d346458c08d4.js",
     "service-worker.js": "/fish-app-atomic-design/service-worker.js",
-    "static/css/main.157ab903.chunk.css.map": "/fish-app-atomic-design/static/css/main.157ab903.chunk.css.map",
+    "static/css/main.8c303650.chunk.css.map": "/fish-app-atomic-design/static/css/main.8c303650.chunk.css.map",
     "static/media/fish.png": "/fish-app-atomic-design/static/media/fish.c4d8458c.png"
   }
 }

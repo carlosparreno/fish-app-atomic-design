@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fish-app-atomic-design/precache-manifest.add91a0352a89255ad16722bef2c7ba7.js"
+  "/fish-app-atomic-design/precache-manifest.d7b000737c5ba98906c6d346458c08d4.js"
 );
 
 self.addEventListener('message', (event) => {
