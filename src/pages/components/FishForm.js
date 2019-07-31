@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Textinput, RadioButton } from '../../atoms';
-import { Form, Formitem } from '../../molecules';
+import { Formitem } from '../../molecules';
+import { Form } from '../../organisms';
 
 function FishForm(props) {
   const [fishName, setFishName] = useState('');
