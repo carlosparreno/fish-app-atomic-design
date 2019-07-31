@@ -46,7 +46,7 @@ function FishForm(props) {
       <Formitem label="Fish direction:" hint="Direction the fish will head">
         <RadioButton
           name="right-left-radio"
-          options={['right', 'left']}
+          options={['left', 'right']}
           valueSelected={fishDirection}
           onChange={handleFishDirectionChange}
         />
