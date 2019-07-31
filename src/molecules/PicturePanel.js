@@ -6,9 +6,9 @@ function PicturePanel(props) {
 
   const direction = () => {
     switch (props.direction) {
-      case 'right':
+      case 'Right':
         return reverse ? 'f-image-left' : 'f-image-right';
-      case 'left':
+      case 'Left':
         return reverse ? 'f-image-right' : 'f-image-left';
       default:
         break;
