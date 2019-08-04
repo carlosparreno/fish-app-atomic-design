@@ -3,12 +3,12 @@ import { Label } from '../atoms';
 
 function Form(props) {
   return (
-    <form className="f-form" name={props.name} onSubmit={props.handleSubmit}>
+    <form className="fish-form" name={props.name} onSubmit={props.handleSubmit}>
       <Label>{props.label}</Label>
       {props.children}
       <input type="submit" value="Submit" />
       {props.formError && (
-        <div className="f-form-error">
+        <div className="fish-form-error">
           <Label>{props.errorMessage}</Label>
         </div>
       )}

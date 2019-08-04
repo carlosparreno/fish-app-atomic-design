@@ -4,7 +4,7 @@ function Textinput(props) {
   return (
     <>
       <input
-        className="f-textinput"
+        className="fish-textinput"
         name={props.name}
         type="text"
         value={props.value}

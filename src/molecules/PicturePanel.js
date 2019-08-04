@@ -7,9 +7,9 @@ function PicturePanel(props) {
   const direction = () => {
     switch (props.direction) {
       case 'Right':
-        return reverse ? 'f-image-left' : 'f-image-right';
+        return reverse ? 'fish-image-left' : 'fish-image-right';
       case 'Left':
-        return reverse ? 'f-image-right' : 'f-image-left';
+        return reverse ? 'fish-image-right' : 'fish-image-left';
       default:
         break;
     }
@@ -18,8 +18,8 @@ function PicturePanel(props) {
   const imageClassName = direction();
 
   return (
-    <div className="f-picture-panel">
-      <div className="f-picture-panel-label">
+    <div className="fish-picture-panel">
+      <div className="fish-picture-panel-label">
         <Label>{props.name}</Label>
       </div>
       {props.children}

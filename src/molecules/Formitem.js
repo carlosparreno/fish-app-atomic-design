@@ -5,8 +5,8 @@ function Formitem(props) {
   const [showHint, setShowHint] = useState(false);
 
   return (
-    <div className="f-formitem">
-      <div className="f-formitem-label">
+    <div className="fish-formitem">
+      <div className="fish-formitem-label">
         <Label>
           {props.label}
           <Icon
@@ -16,7 +16,9 @@ function Formitem(props) {
             onMouseLeave={() => setShowHint(!showHint)}
           />
         </Label>
-        <div className="f-hint">{showHint && <Label>{props.hint}</Label>}</div>
+        <div className="fish-hint">
+          {showHint && <Label>{props.hint}</Label>}
+        </div>
       </div>
       {props.children}
     </div>
