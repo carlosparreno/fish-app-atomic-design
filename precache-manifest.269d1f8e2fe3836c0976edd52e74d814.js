@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28ed4069164f1bee7b9efbeb0fcbeedb",
+    "revision": "81a6bcd0325fb82d1ff6633544878a17",
     "url": "/fish-app-atomic-design/index.html"
   },
   {
-    "revision": "1ac2177a460d725eafa5",
-    "url": "/fish-app-atomic-design/static/css/main.8c303650.chunk.css"
+    "revision": "2025d271f425260c981b",
+    "url": "/fish-app-atomic-design/static/css/main.62aed7b8.chunk.css"
   },
   {
     "revision": "448c5cd430a1d722f77c",
     "url": "/fish-app-atomic-design/static/js/2.4a313aef.chunk.js"
   },
   {
-    "revision": "1ac2177a460d725eafa5",
-    "url": "/fish-app-atomic-design/static/js/main.5b4abec0.chunk.js"
+    "revision": "2025d271f425260c981b",
+    "url": "/fish-app-atomic-design/static/js/main.d80bb89d.chunk.js"
   },
   {
     "revision": "d874353f02dd71215ea2",
