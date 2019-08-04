@@ -1,7 +1,7 @@
 import Label from './Label';
 import Button from './Button';
-import Textinput from './Textinput';
+import TextInput from './TextInput';
 import Icon from './Icon';
 import Image from './Image';
 
-export { Label, Button, Textinput, Icon, Image };
+export { Label, Button, TextInput, Icon, Image };

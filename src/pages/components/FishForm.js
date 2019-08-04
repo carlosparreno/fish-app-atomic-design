@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Textinput } from '../../atoms';
-import { Formitem, RadioButtonGroup } from '../../molecules';
+import { TextInput } from '../../atoms';
+import { FormItem, RadioButtonGroup } from '../../molecules';
 import { Form } from '../../organisms';
 
 function FishForm(props) {
@@ -37,21 +37,21 @@ function FishForm(props) {
       formError={formError}
       errorMessage="Set name and direction"
     >
-      <Formitem label="Fish name:" hint="Give me a name">
-        <Textinput
+      <FormItem label="Fish name:" hint="Give me a name">
+        <TextInput
           value={fishName}
           name="fish-name"
           onChange={handleFishNameChange}
         />
-      </Formitem>
-      <Formitem label="Fish direction:" hint="Direction the fish will head">
+      </FormItem>
+      <FormItem label="Fish direction:" hint="Direction the fish will head">
         <RadioButtonGroup
           name="right-left-radio"
           options={['Left', 'Right']}
           valueSelected={fishDirection}
           onChange={handleFishDirectionChange}
         />
-      </Formitem>
+      </FormItem>
     </Form>
   );
 }

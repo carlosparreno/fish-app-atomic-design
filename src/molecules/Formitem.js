@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Label, Icon } from '../atoms';
 
-function Formitem(props) {
+function FormItem(props) {
   const [showHint, setShowHint] = useState(false);
 
   return (
@@ -25,4 +25,4 @@ function Formitem(props) {
   );
 }
 
-export default Formitem;
+export default FormItem;

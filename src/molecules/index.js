@@ -1,5 +1,5 @@
-import Formitem from './Formitem';
+import FormItem from './FormItem';
 import PicturePanel from './PicturePanel';
 import RadioButtonGroup from './RadioButtonGroup';
 
-export { Formitem, PicturePanel, RadioButtonGroup };
+export { FormItem, PicturePanel, RadioButtonGroup };

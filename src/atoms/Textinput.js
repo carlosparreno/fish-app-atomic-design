@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Textinput(props) {
+function TextInput(props) {
   return (
     <>
       <input
@@ -14,4 +14,4 @@ function Textinput(props) {
   );
 }
 
-export default Textinput;
+export default TextInput;
