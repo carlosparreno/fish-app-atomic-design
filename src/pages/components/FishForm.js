@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Textinput, RadioButton } from '../../atoms';
-import { Formitem } from '../../molecules';
+import { Textinput } from '../../atoms';
+import { Formitem, RadioButtonGroup } from '../../molecules';
 import { Form } from '../../organisms';
 
 function FishForm(props) {
@@ -45,7 +45,7 @@ function FishForm(props) {
         />
       </Formitem>
       <Formitem label="Fish direction:" hint="Direction the fish will head">
-        <RadioButton
+        <RadioButtonGroup
           name="right-left-radio"
           options={['Left', 'Right']}
           valueSelected={fishDirection}

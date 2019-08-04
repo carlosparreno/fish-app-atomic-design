@@ -1,6 +1,6 @@
 import React from 'react';
 
-function RadioButton(props) {
+function RadioButtonGroup(props) {
   return (
     <span>
       {props.options.map((option, key) => (
@@ -12,11 +12,11 @@ function RadioButton(props) {
             checked={props.valueSelected === option}
             onChange={props.onChange}
           />
-          <span className="f-radio-item">{option}</span>
+          <span className="fish-radio-item">{option}</span>
         </span>
       ))}
     </span>
   );
 }
 
-export default RadioButton;
+export default RadioButtonGroup;
